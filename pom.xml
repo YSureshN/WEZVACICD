@@ -72,19 +72,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
-      <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://192.168.44.161:8081/repository/suri-release///</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://192.168.44.161:8081/repository/suri-snap///</url>
-        </snapshotRepository>
-    </distributionManagement>
-            <plugin>
+                 <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <configuration>
